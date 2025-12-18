@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Profile Application</string>
+    <string name="profilePicture">Profile Picture</string>
+    <string name="profileName">Klein Moretti</string>
+    <string name="profileBio">The Fool • Lord of the Mysteries</string>
+    <string name="followButton">Praise the Fool!</string>
+    <string name="emailAddress">lordofthemysteries@backlund.com</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="accountSettings">Account Settings</string>
+    <string name="personalInfo">Personal Information</string>
+    <string name="notifications">Notifications</string>
+    <string name="helpAndSupport">Help and Support</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="timeSpent">Time Spent</string>
+    <string name="following">Following</string>
+    <string name="faqAndHelp">FAQ and Help</string>
+</resources>
