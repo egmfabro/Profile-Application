@@ -12,13 +12,16 @@
     <string name="helpAndSupport">Help and Support</string>
     <string name="privacyPolicy">Privacy Policy</string>
     <string name="terms">Terms and Conditions</string>
-    <string name="timeSpent">Time Spent</string>
+    <string name="saved">Saved</string>
     <string name="following">Following</string>
     <string name="faqAndHelp">FAQ and Help</string>
     <string name="arrowKey">Continue</string>
     <string name="logoutButton">Logout</string>
-    <string name="personal_info_detail">Klein Moretti is the main protagonist of Lord of Mysteries, and a character of Circle of Inevitability.
+    <string name="personalInfoDetail">Klein Moretti is the main protagonist of Lord of Mysteries, and a character of Circle of Inevitability.
         \n\n He is also the mysterious leader of the Tarot Club known as The Fool and a Transmigrator who comes from the modern era.
         \n\n <i>The Fool that doesn\'t belong in this era. \n The Mysterious Ruler above the Gray Fog. \n The king of Yellow and Black who wields good luck. </i>
         \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t - <i>Honorific Name of <b>The Fool</b></i> </string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="friendRequests">Friend Requests</string>
 </resources>

@@ -11,8 +11,8 @@ class DetailFragment : Fragment(R.layout.detail_fragment) {
 
         val detailView = view.findViewById<TextView>(R.id.detailTextView)
         val message = arguments?.getString("EXTRA_TEXT")
-        if (message == getString(R.string.personal_info_detail)) {
-            detailView.text = getText(R.string.personal_info_detail)
+        if (message == getString(R.string.personalInfoDetail)) {
+            detailView.text = getText(R.string.personalInfoDetail)
         } else {
             detailView.text = message
         }
