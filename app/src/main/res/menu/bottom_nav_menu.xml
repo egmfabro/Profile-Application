@@ -7,7 +7,7 @@
 
     <item
         android:id="@+id/navFriendRequests"
-        android:icon="@drawable/icon_person"
+        android:icon="@drawable/icon_friend_request"
         android:title="@string/friendRequests"/>
 
     <item

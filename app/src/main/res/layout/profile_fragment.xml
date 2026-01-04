@@ -96,82 +96,34 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"/>
 
-            <TextView
-                android:id="@+id/personalInformation"
-                style="@style/SettingsItemStyle"
-                android:text="@string/personalInfo"
-                app:drawableEndCompat="@drawable/right_arrow"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/accountSettingsLabel"/>
-
-            <TextView
-                android:id="@+id/notifications"
-                style="@style/SettingsItemStyle"
-                android:text="@string/notifications"
-                app:drawableEndCompat="@drawable/right_arrow"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/personalInformation"/>
-
-            <TextView
-                android:id="@+id/saved"
-                style="@style/SettingsItemStyle"
-                android:text="@string/saved"
-                app:drawableEndCompat="@drawable/right_arrow"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/notifications"/>
-
-            <TextView
-                android:id="@+id/following"
-                style="@style/SettingsItemStyle"
-                android:text="@string/following"
-                app:drawableEndCompat="@drawable/right_arrow"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/saved"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/profileRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/accountSettingsLabel"
+                android:layout_marginTop="24dp"
+                tools:listitem="@layout/item_profile" />
 
             <TextView
                 android:id="@+id/helpAndSupportLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="24dp"
                 android:text="@string/helpAndSupport"
                 android:textColor="@color/bluish"
                 android:textSize="11sp"
                 android:textStyle="bold"
                 android:textAllCaps="true"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/following"/>
+                app:layout_constraintTop_toBottomOf="@id/profileRecyclerView"/>
 
-            <TextView
-                android:id="@+id/privacyPolicy"
-                style="@style/SettingsItemStyle"
-                android:text="@string/privacyPolicy"
-                app:drawableEndCompat="@drawable/right_arrow"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/helpAndSupportLabel"/>
-
-            <TextView
-                android:id="@+id/terms"
-                style="@style/SettingsItemStyle"
-                android:text="@string/terms"
-                app:drawableEndCompat="@drawable/right_arrow"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/privacyPolicy"/>
-
-            <TextView
-                android:id="@+id/faq"
-                style="@style/SettingsItemStyle"
-                android:text="@string/faqAndHelp"
-                app:drawableEndCompat="@drawable/right_arrow"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/terms"
-                android:layout_marginBottom="12dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/helpRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/helpAndSupportLabel"
+                android:layout_marginTop="24dp"
+                tools:listitem="@layout/item_profile" />
 
             <Button
                 android:id="@+id/buttonLogout"
@@ -184,7 +136,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/faq"
+                app:layout_constraintTop_toBottomOf="@id/helpRecyclerView"
                 app:layout_constraintVertical_bias="1.0"
                 tools:ignore="VisualLintButtonSize,TextContrastCheck" />
 

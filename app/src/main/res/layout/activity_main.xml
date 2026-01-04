@@ -17,8 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout="@layout/profile_fragment"
-        />
+        tools:layout="@layout/profile_fragment"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
@@ -26,6 +25,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_nav_menu"
-        tools:ignore="VisualLintBottomNav" />
+        tools:ignore="VisualLintBottomNav"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
